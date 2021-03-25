@@ -27,7 +27,7 @@ So I thought of another way and found out that you can create your own homepages
 I really recommend watching the following YouTube video by [John Muschelli](https://www.youtube.com/channel/UCWI1xyk6Jb4t2OOyP2LS4DQ), where he demonstrates the same procedure live. 
 
 
-[![YouTube](https://github.com/MFuchs1989/Bdown-SQL/blob/master/static/images/Database.png)](https://www.youtube.com/watch?app=desktop&v=syWAKaj-4ck)
+[![YouTube](https://github.com/MFuchs1989/Making-a-Website-with-Blogdown/blob/master/images/YouTube.png)](https://www.youtube.com/watch?app=desktop&v=syWAKaj-4ck)
 
 
 
