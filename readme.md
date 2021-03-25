@@ -25,9 +25,9 @@ I am passionate about blogging, but wanted to avoid public sites like [WordPress
 So I thought of another way and found out that you can create your own homepages with the help of [Blogdown](https://bookdown.org/yihui/blogdown/) and [Netlify](https://www.netlify.com/). 
 
 I really recommend watching the following YouTube video by [John Muschelli](https://www.youtube.com/channel/UCWI1xyk6Jb4t2OOyP2LS4DQ), where he demonstrates the same procedure live. 
+Just click on the image to play the video. 
 
-
-[![YouTube](https://github.com/MFuchs1989/Making-a-Website-with-Blogdown/blob/master/images/YouTube.png)](https://www.youtube.com/watch?app=desktop&v=syWAKaj-4ck)
+[![YouTube](https://github.com/MFuchs1989/Making-a-Website-with-Blogdown/blob/master/images/YouTube.png)](https://www.youtube.com/watch?v=syWAKaj-4ck&t=1s)
 
 
 
@@ -39,7 +39,7 @@ I really recommend watching the following YouTube video by [John Muschelli](http
 
 + Account on [GitHub](https://github.com/)
 + [R](https://www.r-project.org/) and [R-Studio](https://de.wikipedia.org/wiki/RStudio)
-
+    + test
 
 
 
@@ -49,7 +49,7 @@ I really recommend watching the following YouTube video by [John Muschelli](http
 ## Getting Started
 
 1. Sign in to your GitHub Account and [create a new Repository](https://docs.github.com/en/github/getting-started-with-github/create-a-repo)
-
+2. [Create a new project in R-Studio](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects)
 
 
 
