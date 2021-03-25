@@ -1,8 +1,6 @@
 
 # Making a Website with Blogdown
 
-![Blogdown](images/Blogdown.png)
-
 <p align="center">
   <img src="https://github.com/MFuchs1989/Making-a-Website-with-Blogdown/blob/master/images/Blogdown.png?raw=true" alt="python"/>
 </p>
@@ -63,7 +61,11 @@ Just click on the image to play the video.
 6. Log in to [Netlify](https://www.netlify.com/) with your GitHub account
 7. Choose your Repository you want to deploy
 8. Add 'public' to Publish directory
+9. Go back to R-Studio (make sure you are connected to the appropriate project) and create a new post via Addins
 
+
+That's it. Of course you still have a lot of possibilities to design your homepage. For example, you can use the [toml. File](https://bookdown.org/yihui/blogdown/configuration.html) further complement / redesign. 
+Yihui Xie the inventor of Blogdown gives [here](https://bookdown.org/yihui/blogdown/) quite good tips what you can do. 
 
 
 <a name="authors"></a>
