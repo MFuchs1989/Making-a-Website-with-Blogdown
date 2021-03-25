@@ -3,6 +3,12 @@
 
 ![Blogdown](images/Blogdown.png)
 
+<p align="center">
+  <img src="https://github.com/MFuchs1989/Making-a-Website-with-Blogdown/blob/master/images/Blogdown.png?raw=true" alt="python"/>
+</p>
+
+
+
 The goal is to create your own homepage with the help of Blogdown.
 
 
@@ -39,7 +45,8 @@ Just click on the image to play the video.
 
 + Account on [GitHub](https://github.com/)
 + [R](https://www.r-project.org/) and [R-Studio](https://de.wikipedia.org/wiki/RStudio)
-    + test
+    + [Install Blogdown](https://bookdown.org/yihui/blogdown/installation.html)
+    + [Install Hugo](https://blog.rstudio.com/tags/hugo/)
 
 
 
@@ -50,9 +57,12 @@ Just click on the image to play the video.
 
 1. Sign in to your GitHub Account and [create a new Repository](https://docs.github.com/en/github/getting-started-with-github/create-a-repo)
 2. [Create a new project in R-Studio](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects)
-
-
-
+3. Run `new_site()` within the Console of R-Studio
+4. If necessary, add a folder 'public' in the created directory from step 2
+5. Push everything to GitHub
+6. Log in to [Netlify](https://www.netlify.com/) with your GitHub account
+7. Choose your Repository you want to deploy
+8. Add 'public' to Publish directory
 
 
 
