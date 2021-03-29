@@ -14,9 +14,9 @@ The goal is to create your own homepage with the help of Blogdown.
 1. [Introduction](#introduction)
 2. [Requirements](#requirements)
 3. [Getting Started](#getting_started)  
-4. [Authors](#authors)
-5. [Project Motivation](#motivation)
-
+4. [Homepage Design](#homepage_design) 
+5. [Authors](#authors)
+6. [Project Motivation](#motivation)
 
 
 
@@ -64,8 +64,72 @@ Just click on the image to play the video.
 9. Go back to R-Studio (make sure you are connected to the appropriate project) and create a new post via Addins
 
 
-That's it. Of course you still have a lot of possibilities to design your homepage. For example, you can use the [toml. File](https://bookdown.org/yihui/blogdown/configuration.html) further complement / redesign. 
+That's it. 
+
+
+
+
+
+<a name="homepage_design"></a>
+
+## Homepage Design
+
+
+
+Of course you still have a lot of possibilities to design your homepage. 
+For example, you can use the [toml. File](https://bookdown.org/yihui/blogdown/configuration.html) further complement / redesign. 
 Yihui Xie the inventor of Blogdown gives [here](https://bookdown.org/yihui/blogdown/) quite good tips what you can do. 
+
+
+Gladly I put you also [my toml. File](https://github.com/MFuchs1989/Datasets-and-Miscellaneous/blob/main/miscellaneous/Making%20a%20Website%20with%20Blogdown/config.toml) at your disposal. 
+
+Here is an overview, which files I added to make my homepage as you can find it [here](https://michael-fuchs-sql.netlify.app/):
+
+```
+C:.
+│   config.toml
+│   README.md
+│
+├───content
+│   │   about.md
+│   │
+│   └───post
+│           2021-03-03-entity-relationship-diagram-erd.html
+│           2021-03-03-entity-relationship-diagram-erd.Rmd
+│           MFuchs.png
+│
+├───public
+│   │   MFuchs.png
+│   │
+│   └───images
+│           MFuchs.png
+│
+└───static
+    ├───images
+    │       Database.png
+    │
+    ├───post
+    │   └───2021-03-03-entity-relationship-diagram-erd_files
+    │           p2p1.png
+    │           p2p2.png
+    │           p2p3.png
+    │
+    └───themes
+        └───hugo-lithium
+            └───static
+                │   MFuchs.ico
+                │
+                └───images
+                        hugo-logo.png
+                        logo.png
+```
+
+Here is the result of the adjustment I made:
+
+<p align="center">
+  <img src="https://github.com/MFuchs1989/Making-a-Website-with-Blogdown/blob/master/images/Blogdown.png?raw=true" alt="python"/>
+</p>
+
 
 
 <a name="authors"></a>
