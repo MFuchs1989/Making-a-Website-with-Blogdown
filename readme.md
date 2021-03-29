@@ -127,7 +127,7 @@ C:.
 Here is the result of the adjustment I made:
 
 <p align="center">
-  <img src="https://github.com/MFuchs1989/Making-a-Website-with-Blogdown/blob/master/images/Blogdown.png?raw=true" alt="python"/>
+  <img src="https://github.com/MFuchs1989/Making-a-Website-with-Blogdown/blob/master/images/Result.png?raw=true" alt="python"/>
 </p>
 
 
