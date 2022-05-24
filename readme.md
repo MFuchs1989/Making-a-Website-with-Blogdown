@@ -46,6 +46,9 @@ Just click on the image to play the video.
     + [Install Blogdown](https://bookdown.org/yihui/blogdown/installation.html)
     + [Install Hugo](https://bookdown.org/yihui/blogdown/hugo.html)
 
+
+You may not be using the latest version of Hugo. You can load a specific older one with the following syntax: 
+
 ```
 blogdown::install_hugo(
   version = "0.80",
