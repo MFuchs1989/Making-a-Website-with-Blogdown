@@ -46,6 +46,7 @@ Just click on the image to play the video.
     + [Install Blogdown](https://bookdown.org/yihui/blogdown/installation.html)
     + [Install Hugo](https://bookdown.org/yihui/blogdown/hugo.html)
 
+**Additional notes:**
 
 You may not be using the latest version of Hugo. You can load a specific older one with the following syntax: 
 
@@ -59,7 +60,15 @@ blogdown::install_hugo(
 
 blogdown::hugo_version()
 ```
+With the following syntax you can check which libraries are already installed:
+```
+installed.packages()
+```
 
+With this you can find out the path where the installed libraries are located:
+```
+.libPaths()
+```
 
 <a name="getting_started"></a>
 
