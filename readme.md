@@ -44,9 +44,18 @@ Just click on the image to play the video.
 + Account on [GitHub](https://github.com/)
 + [R](https://www.r-project.org/) and [R-Studio](https://de.wikipedia.org/wiki/RStudio)
     + [Install Blogdown](https://bookdown.org/yihui/blogdown/installation.html)
-    + [Install Hugo](https://blog.rstudio.com/tags/hugo/)
+    + [Install Hugo](https://bookdown.org/yihui/blogdown/hugo.html)
 
+```
+blogdown::install_hugo(
+  version = "0.80",
+  extended = TRUE,
+  arch = "auto",
+  os = "auto",
+  force = FALSE)
 
+blogdown::hugo_version()
+```
 
 
 <a name="getting_started"></a>
