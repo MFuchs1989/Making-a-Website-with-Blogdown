@@ -183,6 +183,7 @@ If you want to include Google Analytics on your homepage, follow these steps:
 </script>
 ```
 You can also get this code from Google Analytics:
+
 Google Analytics -> Account -> Property -> Data Streams -> "Your Stream" -> Tagging Guide ->  General website tag (gtag.js)
 
 
