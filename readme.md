@@ -158,9 +158,10 @@ Here is the result of the settings I made:
 
 ## Add Google Analytics
 
+If you want to include Google Analytics on your homepage, follow these steps:
 
-some text 
-
+1. Sign up for [Google Analytics](https://analytics.google.com/)
+  1.1 test
 
 
 
