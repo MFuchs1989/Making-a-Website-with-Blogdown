@@ -167,7 +167,9 @@ If you want to include Google Analytics on your homepage, follow these steps:
 - 2 Go to the root directory of your repository
   * 2.1 Go to `\themes\hugo-lithium\layouts\partials`
     + 2.1.1 Create a folder with the name "google"
-
+  * 2.2 Go to `\themes\hugo-lithium\layouts\partials\google`
+    + 2.2.1 Create a html-file with the name "analytics.html"
+      > 2.2.1.1 some txt 
 
 
 
