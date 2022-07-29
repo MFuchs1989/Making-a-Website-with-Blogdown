@@ -161,9 +161,12 @@ Here is the result of the settings I made:
 If you want to include Google Analytics on your homepage, follow these steps:
 
 - 1 Sign up for [Google Analytics](https://analytics.google.com/)
-  * 1.1 Create an analytics account
+  * 1.1 Create an analytics account (see this guide from [Jennifer Sloane](https://www.youtube.com/watch?v=l27LNXm5LHA))
   * 1.2 Create a property
-- 2 further text
+  * 1.3 Create a data stream -> here you will get your Tracking-ID / Mess-ID
+- 2 Go to the root directory of your repository
+  * 2.1 Go to `\themes\hugo-lithium\layouts\partials`
+    + 2.1.1 Create a folder with the name "google"
 
 
 
