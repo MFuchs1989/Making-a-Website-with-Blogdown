@@ -153,7 +153,6 @@ Here is the result of the settings I made:
 </p>
 
 
-
 <a name="add_google_analytics"></a>
 
 ## Add Google Analytics
@@ -195,8 +194,8 @@ It should look something like this:
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
   <head>
-    {{ partial "head.html" . }}             <- insert the syntax here
-    {{ partial "google/analytics" . }}
+    {{ partial "head.html" . }}
+    {{ partial "google/analytics" . }}        <- insert the syntax here
   </head>
   <body>
     <div class="wrapper">
@@ -205,6 +204,7 @@ It should look something like this:
       </header>
 ```
 
+Enjoy tracking.
 
 
 <a name="authors"></a>
