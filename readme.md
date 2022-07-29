@@ -185,7 +185,7 @@ If you want to include Google Analytics on your homepage, follow these steps:
 ```
 You can also get this code from Google Analytics:
 
-Google Analytics -> Account -> Property -> Data Streams -> "Your Stream" -> Tagging Guide ->  General website tag (gtag.js)
+Google Analytics -> Account -> Property -> Data Streams -> "Your Stream" -> Tagging Guide ->  **General website tag (gtag.js)**
 
 - 6 Go to `\themes\hugo-lithium\layouts\partials\header.html`
   * 6.1 Add the following code: `{{ partial "google/analytics" . }}`
