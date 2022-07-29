@@ -15,9 +15,9 @@ The goal is to create your own homepage with the help of Blogdown.
 2. [Requirements](#requirements)
 3. [Getting Started](#getting_started)  
 4. [Homepage Design](#homepage_design) 
-5. [Authors](#authors)
-6. [Project Motivation](#motivation)
-
+5. [Add Google Analytics](#add_google_analytics)
+6. [Authors](#authors)
+7. [Project Motivation](#motivation)
 
 
 
@@ -151,6 +151,23 @@ Here is the result of the settings I made:
 <p align="center">
   <img src="https://github.com/MFuchs1989/Making-a-Website-with-Blogdown/blob/master/images/Result.png?raw=true" alt="python"/>
 </p>
+
+
+
+<a name="add_google_analytics"></a>
+
+## Add Google Analytics
+
+
+some text 
+
+
+
+
+
+
+
+
 
 
 
