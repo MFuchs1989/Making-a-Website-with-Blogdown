@@ -186,8 +186,24 @@ You can also get this code from Google Analytics:
 
 Google Analytics -> Account -> Property -> Data Streams -> "Your Stream" -> Tagging Guide ->  General website tag (gtag.js)
 
+- 5 Go to `\themes\hugo-lithium\layouts\partials\header.html`
+  * 4.1 Add the following code: `{{ partial "google/analytics" . }}`
 
+It should look something like this:
 
+```
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "head.html" . }}             <- insert the syntax here
+    {{ partial "google/analytics" . }}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        {{ partial "nav.html" . }}
+      </header>
+```
 
 
 
