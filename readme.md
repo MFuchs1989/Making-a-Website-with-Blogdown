@@ -163,12 +163,14 @@ If you want to include Google Analytics on your homepage, follow these steps:
   * 1.1 Create an analytics account (see this guide from [Jennifer Sloane](https://www.youtube.com/watch?v=l27LNXm5LHA))
   * 1.2 Create a property
   * 1.3 Create a data stream -> here you will get your Tracking-ID / Mess-ID
-- 2 Go from the root directory of your repository to `\themes\hugo-lithium\layouts\partials`
-  * 2.1 Create a folder with the name "google"
-- 3 Go to `\themes\hugo-lithium\layouts\partials\google`
-  * 3.1 Create a html-file with the name "analytics.html"
-- 4 Go to `\themes\hugo-lithium\layouts\partials\google\analytics.html`
-  * 4.1 Add the following code:
+- 2 Open from the root directory of your repository the `config.toml` file
+  * 2.1 Insert the Tracking-ID here: `googleAnalytics = ""`
+- 3 Go from the root directory of your repository to `\themes\hugo-lithium\layouts\partials`
+  * 3.1 Create a folder with the name "google"
+- 4 Go to `\themes\hugo-lithium\layouts\partials\google`
+  * 4.1 Create a html-file with the name "analytics.html"
+- 5 Go to `\themes\hugo-lithium\layouts\partials\google\analytics.html`
+  * 5.1 Add the following code:
 
 ```
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -185,8 +187,8 @@ You can also get this code from Google Analytics:
 
 Google Analytics -> Account -> Property -> Data Streams -> "Your Stream" -> Tagging Guide ->  General website tag (gtag.js)
 
-- 5 Go to `\themes\hugo-lithium\layouts\partials\header.html`
-  * 4.1 Add the following code: `{{ partial "google/analytics" . }}`
+- 6 Go to `\themes\hugo-lithium\layouts\partials\header.html`
+  * 6.1 Add the following code: `{{ partial "google/analytics" . }}`
 
 It should look something like this:
 
