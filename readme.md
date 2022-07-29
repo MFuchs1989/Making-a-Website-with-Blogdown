@@ -173,13 +173,13 @@ If you want to include Google Analytics on your homepage, follow these steps:
 
 ```
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1ZMED6QYMR"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=XXXXXXXXXXXX"></script>     <- put in here your Tracking-ID
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-1ZMED6QYMR');
+  gtag('config', 'XXXXXXXXXXXX');     <- put in here your Tracking-ID
 </script>
 ```
 
