@@ -164,14 +164,24 @@ If you want to include Google Analytics on your homepage, follow these steps:
   * 1.1 Create an analytics account (see this guide from [Jennifer Sloane](https://www.youtube.com/watch?v=l27LNXm5LHA))
   * 1.2 Create a property
   * 1.3 Create a data stream -> here you will get your Tracking-ID / Mess-ID
-- 2 Go to the root directory of your repository
-  * 2.1 Go to `\themes\hugo-lithium\layouts\partials`
-    + 2.1.1 Create a folder with the name "google"
-  * 2.2 Go to `\themes\hugo-lithium\layouts\partials\google`
-    + 2.2.1 Create a html-file with the name "analytics.html"
-      > 2.2.1.1 some txt 
+- 2 Go from the root directory of your repository to `\themes\hugo-lithium\layouts\partials`
+  * 2.1 Create a folder with the name "google"
+- 3 Go to `\themes\hugo-lithium\layouts\partials\google`
+  * 3.1 Create a html-file with the name "analytics.html"
+- 4 Go to `\themes\hugo-lithium\layouts\partials\google\analytics.html`
+  * 4.1 Add the following code:
 
+```
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1ZMED6QYMR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-1ZMED6QYMR');
+</script>
+```
 
 
 
