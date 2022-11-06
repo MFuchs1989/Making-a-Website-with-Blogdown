@@ -52,7 +52,7 @@ You may not be using the latest version of Hugo. You can load a specific older o
 
 ```
 blogdown::install_hugo(
-  version = "0.80",
+  version = "0.60",
   extended = TRUE,
   arch = "auto",
   os = "auto",
