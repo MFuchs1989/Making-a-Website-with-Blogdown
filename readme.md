@@ -48,11 +48,18 @@ Just click on the image to play the video.
 
 **Additional notes:**
 
-You may not be using the latest version of Hugo. You can load a specific older one with the following syntax: 
+You may not be using the latest version of Blogdown and Hugo. You can load a specific older one with the following syntax: 
 
 ```
+# Blogdown:
+install.packages('devtools')
+library("devtools")
+install_version("blogdown", version = "1.10", repos = "http://cran.us.r-project.org")
+packageVersion("blogdown")
+
+# Hugo:
 blogdown::install_hugo(
-  version = "0.60",
+  version = "0.80",
   extended = TRUE,
   arch = "auto",
   os = "auto",
