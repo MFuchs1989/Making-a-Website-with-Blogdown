@@ -55,7 +55,9 @@ You may not be using the latest version of Blogdown and Hugo. You can load a spe
 install.packages('devtools')
 library("devtools")
 install_version("blogdown", version = "1.10", repos = "http://cran.us.r-project.org")
+
 packageVersion("blogdown")
+
 
 # Hugo:
 blogdown::install_hugo(
